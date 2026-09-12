@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garage Dupont | Garage automobile</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;color:#222;background:#f5f6f8;line-height:1.6}
+header{background:#0d1b2a;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:24px;font-weight:bold}
+nav a{color:white;text-decoration:none;margin-left:25px}
+.hero{background:#162b40;color:white;text-align:center;padding:90px 20px}
+.hero h1{font-size:48px;margin-bottom:15px}
+.hero p{font-size:20px;margin-bottom:30px}
+.btn{display:inline-block;background:#fff;color:#0d1b2a;padding:14px 24px;border-radius:7px;text-decoration:none;font-weight:bold;margin:5px}
+.btn.dark{background:#0d1b2a;color:white}
+section{padding:60px 7%;max-width:1200px;margin:auto}
+h2{text-align:center;font-size:32px;margin-bottom:35px;color:#0d1b2a}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:white;padding:25px;border-radius:12px;box-shadow:0 3px 12px #00000012}
+.card h3{color:#0d1b2a;margin-bottom:10px}
+.price{font-size:22px;font-weight:bold;margin-top:10px}
+.about{background:white}
+.contact{text-align:center}
+.contact p{margin:8px}
+footer{background:#0d1b2a;color:white;text-align:center;padding:25px}
+
+@media(max-width:700px){
+.hero h1{font-size:36px}
+nav{display:none}
+}
+</style>
+
+<!-- GARAGEBOT / TIDIO
+     Quand le site sera en ligne, nous collerons ici le code Tidio.
+-->
+
+</head>
+
+<body>
+
+<header>
+<div class="logo">🚗 Garage Dupont</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#tarifs">Tarifs</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Votre garage automobile de confiance</h1>
+<p>Entretien, réparation et diagnostic de votre véhicule.</p>
+
+<a class="btn" href="#contact">Demander un rendez-vous</a>
+<a class="btn dark" href="#garagebot">💬 Parler à GarageBot</a>
+</section>
+
+<section id="services">
+<h2>Nos services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>🔧 Entretien</h3>
+<p>Entretien courant et révision de votre véhicule.</p>
+</div>
+
+<div class="card">
+<h3>🛢️ Vidange</h3>
+<p>Vidange et remplacement des filtres.</p>
+</div>
+
+<div class="card">
+<h3>🛑 Freins</h3>
+<p>Contrôle et remplacement des éléments de freinage.</p>
+</div>
+
+<div class="card">
+<h3>🛞 Pneus</h3>
+<p>Montage, remplacement et contrôle des pneus.</p>
+</div>
+
+<div class="card">
+<h3>💻 Diagnostic</h3>
+<p>Diagnostic électronique de votre véhicule.</p>
+</div>
+
+<div class="card">
+<h3>🚘 Réparation</h3>
+<p>Réparation mécanique et accompagnement personnalisé.</p>
+</div>
+
+</div>
+</section>
+
+<section id="tarifs">
+<h2>Quelques tarifs</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Diagnostic électronique</h3>
+<div class="price">49 €</div>
+</div>
+
+<div class="card">
+<h3>Vidange</h3>
+<div class="price">79 €</div>
+</div>
+
+<div class="card">
+<h3>Révision</h3>
+<div class="price">Sur devis</div>
+</div>
+
+<div class="card">
+<h3>Freins</h3>
+<div class="price">Sur devis</div>
+</div>
+
+</div>
+</section>
+
+<section class="about">
+<h2>Pourquoi Garage Dupont ?</h2>
+<p style="text-align:center;max-width:800px;margin:auto">
+Un garage professionnel, transparent et à l'écoute de ses clients.
+Grâce à GarageBot, vous pouvez obtenir des informations et transmettre
+votre demande au garage 24h/24.
+</p>
+</section>
+
+<section id="garagebot" class="contact">
+<h2>Besoin d'aide ?</h2>
+<p>GarageBot peut répondre à vos questions et recueillir votre demande.</p>
+<br>
+<a class="btn dark" href="#contact">Demander un rendez-vous</a>
+</section>
+
+<section id="contact">
+<h2>Contactez-nous</h2>
+
+<p>📞 <strong>06 00 00 00 00</strong></p>
+<p>✉️ contact@garagedupont.fr</p>
+<p>📍 12 rue de l'Automobile, 75000 Paris</p>
+
+<br>
+
+<p><strong>Horaires</strong></p>
+<p>Lundi – Vendredi : 8h30 – 18h30</p>
+<p>Samedi : 9h00 – 13h00</p>
+<p>Dimanche : Fermé</p>
+</section>
+
+<footer>
+<p>© 2026 Garage Dupont — Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
